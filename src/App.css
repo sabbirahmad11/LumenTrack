@@ -13,15 +13,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-header h1 {
+  font-size: 4em; /* Standard header size */
+  color: white;   /* Light color for better contrast on blue background */
+  font-weight: bold;
+  text-align: center; /* Center the header */
+}
+
+.App-header p {
+  font-size: 1.5em; /* Larger, more readable font size */
+  color: #F0F0F0;   /* Light grey color for good contrast */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.6;  /* Spacing between lines for readability */
 }
 
 .App-link {
@@ -36,3 +41,70 @@
     transform: rotate(360deg);
   }
 }
+/* Ensure html and body take up the full height */
+html, body {
+  height: 100%;
+  margin: 0; /* Remove any default margin */
+}
+
+/* Ocean blue background applied to the entire page */
+.ocean-blue-bg {
+  background-color: #1E90FF; /* Ocean Blue */
+  height: 100%; /* This ensures the background covers the full height of the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Center content in the middle of the page */
+.container {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+/* src/App.css */
+
+.personal-info-form {
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.personal-info-form h2 {
+  font-size: 1.5em;
+}
+
+.personal-info-form .form-group {
+  margin-bottom: 15px;
+}
+
+.personal-info-form .form-group label {
+  display: block;
+  font-size: 1.1em;
+}
+
+.personal-info-form .form-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.personal-info-form button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.personal-info-form button:hover {
+  background-color: #187bcd;
+}
+
+

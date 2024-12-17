@@ -108,3 +108,58 @@ html, body {
 }
 
 
+.user-input {
+  margin: 2rem 0;
+}
+
+.user-input h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user-input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-input label {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.user-input textarea {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.user-input button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.user-input button:hover {
+  background-color: #45a049;
+}
+
+.submitted-data {
+  margin-top: 2rem;
+}
+
+.submitted-data h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.submitted-data p {
+  font-size: 1rem;
+  color: #555;
+}
+
